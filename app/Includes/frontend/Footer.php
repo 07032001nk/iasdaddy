@@ -1,0 +1,4 @@
+
+        <?=bootstrapjs()?>
+</body>
+</html>

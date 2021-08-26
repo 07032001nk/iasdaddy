@@ -10,7 +10,6 @@
         <?php font();bootstrapcss();bootstrapicons();?>
 </head>
 <body>
+
+        <?=menu()?>
         
-        <?=bootstrapjs()?>
-</body>
-</html>
