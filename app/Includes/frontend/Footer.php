@@ -1,4 +1,6 @@
 
+        </div>
+
         <?=bootstrapjs()?>
 </body>
 </html>

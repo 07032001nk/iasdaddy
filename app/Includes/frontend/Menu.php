@@ -1,30 +1,19 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><span class="text-primary fw-bolder">IAS</span>daddy</a>
+    <a class="navbar-brand" href="<?=SITEURL;?>"><span class="text-primary fw-bolder">IAS</span>daddy</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="<?=SITEURL;?>/courses">Courses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="<?=SITEURL;?>/upsc-guides">UPSC Guides</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+        <a href="<?=SITEURL;?>/dashboard/login" class="nav-item btn btn-primary btn-sm mx-2 my-2">Login to Your Account</a>
+        <a href="<?=SITEURL;?>/dashboard/register" class="nav-item btn btn-dark btn-sm mx-2 my-2">Register an Account</a>
       </ul>
     </div>
   </div>
