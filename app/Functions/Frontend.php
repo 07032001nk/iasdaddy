@@ -9,3 +9,8 @@
         {
                 include INC.DS.'frontend'.DS.'Menu.php';
         }
+
+        function foot()
+        {
+                include INC.DS.'frontend'.DS.'Footer.php';
+        }
