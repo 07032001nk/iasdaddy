@@ -1,0 +1,3 @@
+<?php
+
+//core file
